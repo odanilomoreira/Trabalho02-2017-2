@@ -1,18 +1,12 @@
 package danilo.com.trabalho02_2017_2;
 
-import java.util.Date;
-
-/**
- * Created by Isabela on 01/12/2017.
- */
-
 public class Evento {
 
     private String nome;
-    private Date data;
+    private String data;
     private String local;
 
-    public Evento (String nome, Date data, String local){
+    public Evento (String nome, String data, String local){
         this.nome = nome;
         this.data = data;
         this.local = local;
@@ -26,11 +20,11 @@ public class Evento {
         this.nome = nome;
     }
 
-    public Date getData(){
+    public String getData(){
         return data;
     }
 
-    public Date setData(Date data){
+    public String setData(String data){
         this.data = data;
     }
 
