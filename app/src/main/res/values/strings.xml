@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">Trabalho02-2017-2</string>
+    <string-array name="atributos">
+        <item>Nome</item>
+        <item>Data</item>
+        <item>Local</item>
+        <item>Capacidade</item>
+        <item>Promotor</item>
+        <item>Patrocínio</item>
+        <item>Valor do Ingresso</item>
+    </string-array>
 </resources>
