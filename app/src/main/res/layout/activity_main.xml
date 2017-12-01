@@ -7,21 +7,4 @@
     android:orientation="vertical"
     tools:context="danilo.com.trabalho02_2017_2.MainActivity">
 
-    <Button
-        android:id="@+id/btn_add"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Adicionar Evento" />
-
-    <TextView
-        android:id="@+id/txt_eventos"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Lista de Eventos"
-        android:textSize="24sp" />
-
-    <ListView
-        android:id="@+id/list_eventos"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>
