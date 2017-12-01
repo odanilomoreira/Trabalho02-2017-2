@@ -16,7 +16,7 @@ public class Evento {
         return nome;
     }
 
-    public String setNome(String nome){
+    public void setNome(String nome){
         this.nome = nome;
     }
 
@@ -24,7 +24,7 @@ public class Evento {
         return data;
     }
 
-    public String setData(String data){
+    public void setData(String data){
         this.data = data;
     }
 
@@ -32,7 +32,7 @@ public class Evento {
         return local;
     }
 
-    public String setLocal(String local){
+    public void setLocal(String local){
         this.local = local;
     }
 

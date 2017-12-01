@@ -31,10 +31,6 @@
             android:text="Local"
             android:id="@+id/txt_local"
             />
-
-
-
     </LinearLayout>
-
 
 </LinearLayout>
